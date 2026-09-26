@@ -39,7 +39,7 @@ public final class WarfareGuard {
         if (isAllowed(player.getLocation())) return true;
         player.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString(
                 "safety.denied-message",
-                "&cWarfare sólo está disponible en la modalidad Slimefun.")));
+                "&cWarfare is only available in Slimefun worlds.")));
         return false;
     }
 

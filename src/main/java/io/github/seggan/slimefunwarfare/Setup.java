@@ -55,9 +55,9 @@ public final class Setup {
         new SlimefunItem(Categories.RESOURCES, Items.BORAX, RecipeType.NULL, fillNulls(
             new CustomItemStack(
                 Material.STONE,
-                "&fgotas de piedra",
+                "&fStone drop",
                 "",
-                "&7Este objeto tiene la posibilidad de aparecer al extraer piedra."
+                "&7This item is dropped from stone"
             )
         )).register(addon);
         new SlimefunItem(Categories.RESOURCES, Items.BORON, RecipeType.SMELTERY, fillNulls(Items.BORAX)).register(addon);
@@ -416,11 +416,11 @@ public final class Setup {
     }
 
     static void setupResearches() {
-        addResearch("Weapons of Mass Destruction", "grandes armas destructivas", 70, Items.NUCLEAR_BOMB, Items.BOOMINATOR_9000);
-        addResearch("I am Iron Man", "soy el hombre de hierro!", 70, Items.POWER_SUIT_HELMET, Items.POWER_SUIT_CHESTPLATE, Items.POWER_SUIT_LEGGINGS, Items.POWER_SUIT_BOOTS);
-        addResearch("Energy Weapons", "armas de energía", 45, Items.ENERGY_BLADE, Items.ENERGY_RECTIFIER, Items.ENERGY_RIFLE);
-        addResearch("Alien Metals", "metal alienígena", 40, Items.OSMIUM_DUST, Items.OSMIUM_INGOT, Items.OSMIUM_SUPERALLOY);
-        addResearch("Rare Earths", "elementos de tierras raras", 50, Items.MONAZITE, Items.LANTHANUM_INGOT, Items.NEODYMIUM_INGOT, Items.GADOLINIUM_INGOT, Items.TERBIUM_INGOT);
+        addResearch("weapons_of_mass_destruction", "Weapons of Mass Destruction", 70, Items.NUCLEAR_BOMB, Items.BOOMINATOR_9000);
+        addResearch("i_am_iron_man", "I am Iron Man", 70, Items.POWER_SUIT_HELMET, Items.POWER_SUIT_CHESTPLATE, Items.POWER_SUIT_LEGGINGS, Items.POWER_SUIT_BOOTS);
+        addResearch("energy_weapons", "Energy Weapons", 45, Items.ENERGY_BLADE, Items.ENERGY_RECTIFIER, Items.ENERGY_RIFLE);
+        addResearch("alien_metals", "Alien Metals", 40, Items.OSMIUM_DUST, Items.OSMIUM_INGOT, Items.OSMIUM_SUPERALLOY);
+        addResearch("rare_earths", "Rare Earths", 50, Items.MONAZITE, Items.LANTHANUM_INGOT, Items.NEODYMIUM_INGOT, Items.GADOLINIUM_INGOT, Items.TERBIUM_INGOT);
     }
 
     private static void addResearch(String id, String name, int xp, SlimefunItemStack... items) {

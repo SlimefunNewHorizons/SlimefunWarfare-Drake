@@ -82,12 +82,12 @@ public class MeteorAttractor extends SimpleSlimefunItem<BlockUseHandler> {
                 );
 
                 Location l = b.getClickedBlock().get().getLocation();
-                b.getPlayer().sendMessage("Meteoro estará en" + mins + "Caer en minutos");
+                b.getPlayer().sendMessage("Sending meteor in " + mins + " minutes");
                 Scheduler.run(mins * 60 * 20, () -> drop(l, b.getPlayer()));
             } else {
-                b.getPlayer().sendMessage(ChatColor.RED + "El atractor de meteoritos tiene"
+                b.getPlayer().sendMessage(ChatColor.RED + "The Meteor Attractor has a "
                     + config.getInt("space.space.attractor-cooldown", 1) +
-                    "minutos de tiempo de enfriamiento"
+                    " minute cooldown"
                 );
             }
         };

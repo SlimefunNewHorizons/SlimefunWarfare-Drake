@@ -28,57 +28,57 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 public enum Module {
-    NANOFIBER_CUSHION(0, "estera de nanofibras", ArmorPiece.FEET, new ItemStack[]{
+    NANOFIBER_CUSHION(0, "Nanofiber Cushion", ArmorPiece.FEET, new ItemStack[]{
         new ItemStack(Material.FEATHER), Items.REINFORCED_SLIMESTEEL, new ItemStack(Material.FEATHER),
         Items.REINFORCED_SLIMESTEEL, Items.MODULE_CASE, Items.REINFORCED_SLIMESTEEL,
         new ItemStack(Material.FEATHER), Items.REINFORCED_SLIMESTEEL, new ItemStack(Material.FEATHER),
-    }, 5, "&7Este mod te permite", "&7Inmune al daño por caídas"),
-    MINI_JETS(1, "botas mini jet", ArmorPiece.FEET, new ItemStack[]{
+    }, 5, "&7This module keeps you from", "&7taking fall damage"),
+    MINI_JETS(1, "Mini Jets", ArmorPiece.FEET, new ItemStack[]{
         Items.OSMIUM_SUPERALLOY, Items.REINFORCED_SLIMESTEEL, Items.OSMIUM_SUPERALLOY,
         SlimefunItems.STEEL_THRUSTER, Items.MODULE_CASE, SlimefunItems.STEEL_THRUSTER,
         Items.OSMIUM_SUPERALLOY, Items.REINFORCED_SLIMESTEEL, Items.OSMIUM_SUPERALLOY
-    }, 8, "&7Obtén la capacidad de volar en modo creativo."),
-    LIFE_SUPPORT(2, "sistema de soporte vital", PotionEffectType.REGENERATION, 2, ArmorPiece.CHEST, new ItemStack[]{
+    }, 8, "&7Gives you creative flight"),
+    LIFE_SUPPORT(2, "Life Support Systems", PotionEffectType.REGENERATION, 2, ArmorPiece.CHEST, new ItemStack[]{
         SlimefunItems.ESSENCE_OF_AFTERLIFE, Items.SLIMESTEEL, SlimefunItems.ESSENCE_OF_AFTERLIFE,
         Items.SLIMESTEEL, Items.MODULE_CASE, Items.SLIMESTEEL,
         SlimefunItems.ESSENCE_OF_AFTERLIFE, Items.SLIMESTEEL, SlimefunItems.ESSENCE_OF_AFTERLIFE
     }, 5),
-    HEAT_SINKS(3, "disipador de calor", PotionEffectType.FIRE_RESISTANCE, 0, ArmorPiece.CHEST, new ItemStack[]{
+    HEAT_SINKS(3, "Heat Sinks", PotionEffectType.FIRE_RESISTANCE, 0, ArmorPiece.CHEST, new ItemStack[]{
         new ItemStack(Material.MAGMA_CREAM), Items.OSMIUM_INGOT, new ItemStack(Material.MAGMA_CREAM),
         Items.OSMIUM_INGOT, Items.MODULE_CASE, Items.OSMIUM_INGOT,
         new ItemStack(Material.MAGMA_CREAM), Items.OSMIUM_INGOT, new ItemStack(Material.MAGMA_CREAM)
     }, 1),
-    HYDRAULICS(4, "Sistema hidráulico integrado", PotionEffectType.STRENGTH, 1, ArmorPiece.CHEST, new ItemStack[]{
+    HYDRAULICS(4, "Integrated Hydraulics", PotionEffectType.STRENGTH, 1, ArmorPiece.CHEST, new ItemStack[]{
         SlimefunItems.REINFORCED_PLATE, Items.OSMIUM_SUPERALLOY, SlimefunItems.REINFORCED_PLATE,
         SlimefunItems.FUEL_BUCKET, Items.MODULE_CASE, SlimefunItems.FUEL_BUCKET,
         SlimefunItems.REINFORCED_PLATE, Items.OSMIUM_SUPERALLOY, SlimefunItems.REINFORCED_PLATE
     }, 3),
-    REACTION_WHEELS(5, "rueda de reacción", ArmorPiece.LEGS, new ItemStack[]{
+    REACTION_WHEELS(5, "Reaction Wheels", ArmorPiece.LEGS, new ItemStack[]{
         SlimefunItems.STEEL_PLATE, Items.OSMIUM_SUPERALLOY, SlimefunItems.STEEL_PLATE,
         SlimefunItems.STEEL_INGOT, Items.MODULE_CASE, SlimefunItems.STEEL_INGOT,
         SlimefunItems.STEEL_PLATE, Items.OSMIUM_SUPERALLOY, SlimefunItems.STEEL_PLATE
-    }, 5, "&7Este mod te permite", "&7correr más rápido"),
-    ENERGY_SHIELD(6, "máscara de energía personal", PotionEffectType.RESISTANCE, 2, ArmorPiece.CHEST, new ItemStack[]{
+    }, 5, "&7This module makes you", "&7sprint faster"),
+    ENERGY_SHIELD(6, "Personal Energy Shield", PotionEffectType.RESISTANCE, 2, ArmorPiece.CHEST, new ItemStack[]{
         Items.UNPATENTABLIUM, Items.OSMIUM_SUPERALLOY, Items.UNPATENTABLIUM,
         Items.POWER_SUIT_GENERATOR, Items.MODULE_CASE, Items.POWER_SUIT_GENERATOR,
         Items.ENERGY_RECTIFIER, Items.SEGGANESSON, Items.ENERGY_RECTIFIER
     }, 3),
-    AQUAMASK(7, "máscara submarina™", PotionEffectType.CONDUIT_POWER, 0, ArmorPiece.HEAD, new ItemStack[]{
+    AQUAMASK(7, "AquaMask™", PotionEffectType.CONDUIT_POWER, 0, ArmorPiece.HEAD, new ItemStack[]{
         new ItemStack(Material.PUFFERFISH), SlimefunItems.CLOTH, new ItemStack(Material.PUFFERFISH),
         Items.SLIMESTEEL, Items.MODULE_CASE, Items.SLIMESTEEL,
         new ItemStack(Material.PUFFERFISH), SlimefunItems.CLOTH, new ItemStack(Material.PUFFERFISH)
     }, 2),
-    AUXILIARY_GENERATOR(8, "Generador de respaldo", null, new ItemStack[]{
+    AUXILIARY_GENERATOR(8, "Auxiliary Generator", null, new ItemStack[]{
         Items.OSMIUM_SUPERALLOY, Items.POWER_SUIT_GENERATOR, Items.OSMIUM_SUPERALLOY,
         Items.SEGGANESSON, Items.MODULE_CASE, Items.SEGGANESSON,
         Items.OSMIUM_SUPERALLOY, Items.SEGGANESSON, Items.OSMIUM_SUPERALLOY
-    }, 5, "&7Aumenta la tasa de producción de energía de la servoarmadura."),
-    ELECTRONIC_SPRINGS(9, "resorte de potencia", PotionEffectType.JUMP_BOOST, 1, ArmorPiece.LEGS, new ItemStack[]{
+    }, 5, "&7Boosts the suit's energy production"),
+    ELECTRONIC_SPRINGS(9, "Electronic Springs", PotionEffectType.JUMP_BOOST, 1, ArmorPiece.LEGS, new ItemStack[]{
         Items.REINFORCED_SLIMESTEEL, SlimefunItems.ADVANCED_CIRCUIT_BOARD, Items.REINFORCED_SLIMESTEEL,
         Items.REINFORCED_SLIMESTEEL, Items.MODULE_CASE, Items.REINFORCED_SLIMESTEEL,
         Items.REINFORCED_SLIMESTEEL, SlimefunItems.BASIC_CIRCUIT_BOARD, Items.REINFORCED_SLIMESTEEL
     }, 3),
-    MINI_PISTONS(10, "pistón pequeño", PotionEffectType.HASTE, 3, ArmorPiece.CHEST, new ItemStack[]{
+    MINI_PISTONS(10, "Mini Pistons", PotionEffectType.HASTE, 3, ArmorPiece.CHEST, new ItemStack[]{
         Items.REINFORCED_SLIMESTEEL, new ItemStack(Material.PISTON), Items.REINFORCED_SLIMESTEEL,
         Items.REINFORCED_SLIMESTEEL, Items.MODULE_CASE, Items.REINFORCED_SLIMESTEEL,
         Items.REINFORCED_SLIMESTEEL, new ItemStack(Material.PISTON), Items.REINFORCED_SLIMESTEEL
@@ -126,10 +126,10 @@ public enum Module {
         }
         loreList.add("");
         if (effect != null) {
-            loreList.add(String.format("&7Efecto: &a%s %d", effect.getKey().getKey(), level + 1));
+            loreList.add(String.format("&7Effect: &a%s %d", effect.getKey().getKey().replace('_', ' '), level + 1));
         }
-        loreList.add(allowed == null ? "&7Se puede instalar en cualquier lugar" : "&7Se puede instalar en " + ArmorPieceUtil.getName(allowed));
-        loreList.add(String.format("&econsumir %dJ", power));
+        loreList.add(allowed == null ? "&7Can be installed anywhere" : "&7Can be installed on " + ArmorPieceUtil.getName(allowed));
+        loreList.add(String.format("&eUses %dJ", power));
 
         this.item = new SlimefunItemStack(
             this.name(),

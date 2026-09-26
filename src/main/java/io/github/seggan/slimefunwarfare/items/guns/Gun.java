@@ -79,7 +79,7 @@ public class Gun extends SlimefunItem implements DamageableItem {
             long lastUse = container.getOrDefault(Gun.LAST_USE, PersistentDataType.LONG, 0L);
             long currentTime = System.currentTimeMillis();
             if ((currentTime - lastUse) < cooldown) {
-                p.sendMessage(ChatColor.RED + "Recargar!");
+                p.sendMessage(ChatColor.RED + "Reloading!");
                 return;
             }
             container.set(LAST_USE, PersistentDataType.LONG, currentTime);
@@ -100,7 +100,7 @@ public class Gun extends SlimefunItem implements DamageableItem {
             }
 
             if (bullet == null) {
-                p.sendMessage(ChatColor.RED + "Sin balas!");
+                p.sendMessage(ChatColor.RED + "You have run out of bullets!");
                 return;
             }
         }

@@ -64,7 +64,7 @@ safety:
     - world
     - world_nether
     - world_the_end
-  denied-message: "&cWarfare sólo está disponible en la modalidad Slimefun."
+  denied-message: "&cWarfare is only available in Slimefun worlds."
   show-energy-nets: true
   show-gps: true
   # The distance up/down that the radar can see

@@ -40,7 +40,7 @@ public class NuclearBomb extends SlimefunItem implements Radioactive {
             Block b = optionalBlock.get();
             if (!SlimefunWarfare.inst().getConfig().getBoolean("explosions.nuclear-enabled", false)
                     || !SlimefunWarfare.inst().guard().canModify(e.getPlayer(), b.getLocation())) {
-                e.getPlayer().sendMessage("§cLa bomba nuclear está desactivada o no puedes usarla aquí.");
+                e.getPlayer().sendMessage("§cThe nuclear bomb is disabled or cannot be used here.");
                 return;
             }
             b.setType(Material.AIR);

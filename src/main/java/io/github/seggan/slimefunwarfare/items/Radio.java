@@ -36,7 +36,7 @@ public class Radio extends SimpleSlimefunItem<ItemUseHandler> {
         return e -> {
             e.cancel();
             ItemStack stack = e.getItem();
-            e.getPlayer().sendMessage(ChatColor.YELLOW + "Ingrese la nueva clave de cifrado:");
+            e.getPlayer().sendMessage(ChatColor.YELLOW + "Enter the new encryption key:");
             ChatUtils.awaitInput(e.getPlayer(), s -> {
                 if (stack.hasItemMeta()) {
                     ItemMeta meta = stack.getItemMeta();
