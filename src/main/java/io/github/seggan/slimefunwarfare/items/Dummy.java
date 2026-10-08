@@ -3,11 +3,11 @@ package io.github.seggan.slimefunwarfare.items;
 import io.github.seggan.slimefunwarfare.SlimefunWarfare;
 import io.github.seggan.slimefunwarfare.lists.Categories;
 import io.github.seggan.slimefunwarfare.lists.Items;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
-import com.github.drakescraft_labs.slimefun4.core.handlers.ItemUseHandler;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.items.ItemUtils;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
 import org.bukkit.GameMode;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -46,10 +46,10 @@ public class Dummy extends SlimefunItem {
             z.setAI(false);
             z.setAware(false);
 
-            z.getAttribute(Attribute.GENERIC_MAX_HEALTH).setBaseValue(1024);
+            z.getAttribute(Attribute.MAX_HEALTH).setBaseValue(1024);
             z.setHealth(1024);
-            z.getAttribute(Attribute.GENERIC_ARMOR).setBaseValue(0);
-            z.getAttribute(Attribute.GENERIC_ARMOR_TOUGHNESS).setBaseValue(0);
+            z.getAttribute(Attribute.ARMOR).setBaseValue(0);
+            z.getAttribute(Attribute.ARMOR_TOUGHNESS).setBaseValue(0);
 
             Player p = e.getPlayer();
             if (p.getGameMode() != GameMode.CREATIVE) {

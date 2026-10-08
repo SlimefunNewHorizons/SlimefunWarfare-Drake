@@ -1,9 +1,9 @@
 package io.github.seggan.slimefunwarfare;
 
 import com.google.common.collect.Sets;
-import io.github.mooy1.infinitylib.common.Events;
-import io.github.mooy1.infinitylib.common.Scheduler;
-import io.github.mooy1.infinitylib.core.AbstractAddon;
+import dev.drake.infinitylib.common.Events;
+import dev.drake.infinitylib.common.Scheduler;
+import dev.drake.infinitylib.core.AbstractAddon;
 import io.github.seggan.slimefunwarfare.items.guns.Gun;
 import io.github.seggan.slimefunwarfare.items.powersuits.ArmorPiece;
 import io.github.seggan.slimefunwarfare.items.powersuits.Module;
@@ -19,10 +19,10 @@ import io.github.seggan.slimefunwarfare.listeners.NukeListener;
 import io.github.seggan.slimefunwarfare.listeners.PyroListener;
 import io.github.seggan.slimefunwarfare.lists.Categories;
 import io.github.seggan.slimefunwarfare.lists.Items;
-import com.github.drakescraft_labs.slimefun4.api.MinecraftVersion;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
-import com.github.drakescraft_labs.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun4.api.MinecraftVersion;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import org.bukkit.Material;
 import org.bukkit.Particle;
 import org.bukkit.entity.Player;
