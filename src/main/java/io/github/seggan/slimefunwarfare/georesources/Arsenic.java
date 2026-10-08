@@ -1,7 +1,7 @@
 package io.github.seggan.slimefunwarfare.georesources;
 
-import io.github.mooy1.infinitylib.core.AbstractAddon;
-import com.github.drakescraft_labs.slimefun4.api.geo.GEOResource;
+import dev.drake.infinitylib.core.AbstractAddon;
+import io.github.thebusybiscuit.slimefun4.api.geo.GEOResource;
 import org.bukkit.NamespacedKey;
 import org.bukkit.World.Environment;
 import org.bukkit.block.Biome;

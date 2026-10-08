@@ -2,10 +2,10 @@ package io.github.seggan.slimefunwarfare.items;
 
 import io.github.seggan.slimefunwarfare.lists.Categories;
 import io.github.seggan.slimefunwarfare.lists.Items;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
-import com.github.drakescraft_labs.slimefun4.core.attributes.Rechargeable;
-import com.github.drakescraft_labs.slimefun4.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.core.attributes.Rechargeable;
+import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import org.bukkit.inventory.ItemStack;
 
 public class EnergyBlade extends SlimefunItem implements Rechargeable {

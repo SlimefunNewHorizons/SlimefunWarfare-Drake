@@ -1,6 +1,6 @@
 package io.github.seggan.slimefunwarfare.lists;
 
-import com.github.drakescraft_labs.slimefun4.libraries.dough.skins.PlayerSkin;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
 
 import lombok.experimental.UtilityClass;
 

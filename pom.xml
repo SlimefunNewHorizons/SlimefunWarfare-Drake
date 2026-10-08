@@ -11,7 +11,12 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <author>Jack</author>
-        <lombok.version>1.18.36</lombok.version>
+        <!-- Porte 26.x: Paper 26.2 + Java 25 (branch port-26x) -->
+        <paper.version>26.2.build.129-stable</paper.version>
+        <maven.compiler.release>25</maven.compiler.release>
+        <lombok.version>1.18.46</lombok.version>
+        <slimefun.drake.version>11.0-Universal-26.x-SNAPSHOT</slimefun.drake.version>
+        <infinitylib.version>1.3.11-UNIVERSAL-26x-SNAPSHOT</infinitylib.version>
     </properties>
 
     <build>
@@ -32,9 +37,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
+                <version>3.14.0</version>
                 <configuration>
-                    <release>21</release>
+                    <release>${maven.compiler.release}</release>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.projectlombok</groupId>
@@ -48,12 +53,12 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.5.1</version>
+                <version>3.6.2</version>
                 <configuration>
                     <minimizeJar>true</minimizeJar>
                     <relocations>
                         <relocation>
-                            <pattern>io.github.mooy1.infinitylib</pattern>
+                            <pattern>dev.drake.infinitylib</pattern>
                             <shadedPattern>io.github.seggan.slimefunwarfare.infinitylib</shadedPattern>
                         </relocation>
                     </relocations>
@@ -95,6 +100,11 @@
         </repository>
 
         <repository>
+            <id>papermc</id>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
+        </repository>
+
+        <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
@@ -107,22 +117,22 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.21.1-R0.1-SNAPSHOT</version>
+            <groupId>io.papermc.paper</groupId>
+            <artifactId>paper-api</artifactId>
+            <version>${paper.version}</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>com.github.drakescraft_labs</groupId>
             <artifactId>slimefun-core</artifactId>
-            <version>11.0-Drake-1.21.11-SNAPSHOT</version>
+            <version>${slimefun.drake.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>io.github.mooy1</groupId>
-            <artifactId>InfinityLib</artifactId>
-            <version>1.3.10-Drake-1.21.11</version>
+            <groupId>com.github.drakescraft_labs</groupId>
+            <artifactId>infinitylib-drake</artifactId>
+            <version>${infinitylib.version}</version>
             <scope>compile</scope>
         </dependency>
 
