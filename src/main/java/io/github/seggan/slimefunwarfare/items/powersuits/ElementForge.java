@@ -1,6 +1,6 @@
 package io.github.seggan.slimefunwarfare.items.powersuits;
 
-import io.github.mooy1.infinitylib.common.Scheduler;
+import dev.drake.infinitylib.common.Scheduler;
 import io.github.seggan.slimefunwarfare.SlimefunWarfare;
 import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup;
 import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;

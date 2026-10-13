@@ -1,6 +1,6 @@
 package io.github.seggan.slimefunwarfare.listeners;
 
-import io.github.mooy1.infinitylib.common.Scheduler;
+import dev.drake.infinitylib.common.Scheduler;
 import io.github.seggan.slimefunwarfare.items.Radio;
 import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
 import net.md_5.bungee.api.ChatColor;

@@ -1,6 +1,6 @@
 package io.github.seggan.slimefunwarfare.items.guns;
 
-import io.github.mooy1.infinitylib.core.AbstractAddon;
+import dev.drake.infinitylib.core.AbstractAddon;
 import io.github.seggan.slimefunwarfare.SlimefunWarfare;
 import io.github.seggan.slimefunwarfare.Util;
 import io.github.seggan.slimefunwarfare.items.Bullet;

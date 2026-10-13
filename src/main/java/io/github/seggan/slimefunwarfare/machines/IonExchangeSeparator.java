@@ -1,8 +1,8 @@
 package io.github.seggan.slimefunwarfare.machines;
 
-import io.github.mooy1.infinitylib.common.StackUtils;
-import io.github.mooy1.infinitylib.machines.AbstractMachineBlock;
-import io.github.mooy1.infinitylib.machines.MenuBlock;
+import dev.drake.infinitylib.common.StackUtils;
+import dev.drake.infinitylib.machines.AbstractMachineBlock;
+import dev.drake.infinitylib.machines.MenuBlock;
 import io.github.seggan.slimefunwarfare.lists.Categories;
 import io.github.seggan.slimefunwarfare.lists.Items;
 import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;

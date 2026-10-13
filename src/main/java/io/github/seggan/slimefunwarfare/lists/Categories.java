@@ -1,7 +1,7 @@
 package io.github.seggan.slimefunwarfare.lists;
 
-import io.github.mooy1.infinitylib.groups.MultiGroup;
-import io.github.mooy1.infinitylib.groups.SubGroup;
+import dev.drake.infinitylib.groups.MultiGroup;
+import dev.drake.infinitylib.groups.SubGroup;
 import io.github.seggan.slimefunwarfare.SlimefunWarfare;
 import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup;
 import com.github.drakescraft_labs.slimefun4.libraries.dough.items.CustomItemStack;

@@ -1,6 +1,6 @@
 package io.github.seggan.slimefunwarfare.items.powersuits;
 
-import io.github.mooy1.infinitylib.core.AbstractAddon;
+import dev.drake.infinitylib.core.AbstractAddon;
 import io.github.seggan.slimefunwarfare.lists.Categories;
 import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
 import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;

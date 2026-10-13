@@ -1,8 +1,8 @@
 package io.github.seggan.slimefunwarfare.machines;
 
-import io.github.mooy1.infinitylib.common.CoolDowns;
-import io.github.mooy1.infinitylib.common.Scheduler;
-import io.github.mooy1.infinitylib.core.AddonConfig;
+import dev.drake.infinitylib.common.CoolDowns;
+import dev.drake.infinitylib.common.Scheduler;
+import dev.drake.infinitylib.core.AddonConfig;
 import io.github.seggan.slimefunwarfare.SlimefunWarfare;
 import io.github.seggan.slimefunwarfare.lists.Categories;
 import io.github.seggan.slimefunwarfare.lists.Items;

@@ -1,6 +1,6 @@
 package io.github.seggan.slimefunwarfare;
 
-import io.github.mooy1.infinitylib.core.AbstractAddon;
+import dev.drake.infinitylib.core.AbstractAddon;
 import io.github.seggan.slimefunwarfare.georesources.Arsenic;
 import io.github.seggan.slimefunwarfare.georesources.Monazite;
 import io.github.seggan.slimefunwarfare.items.Bullet;

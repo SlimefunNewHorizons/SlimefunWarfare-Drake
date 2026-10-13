@@ -1,6 +1,6 @@
 package io.github.seggan.slimefunwarfare.georesources;
 
-import io.github.mooy1.infinitylib.core.AbstractAddon;
+import dev.drake.infinitylib.core.AbstractAddon;
 import io.github.seggan.slimefunwarfare.Util;
 import com.github.drakescraft_labs.slimefun4.api.geo.GEOResource;
 import org.bukkit.Bukkit;

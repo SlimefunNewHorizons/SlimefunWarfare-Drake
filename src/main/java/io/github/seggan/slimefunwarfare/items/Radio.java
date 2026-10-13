@@ -1,6 +1,6 @@
 package io.github.seggan.slimefunwarfare.items;
 
-import io.github.mooy1.infinitylib.core.AbstractAddon;
+import dev.drake.infinitylib.core.AbstractAddon;
 import io.github.seggan.slimefunwarfare.lists.Categories;
 import io.github.seggan.slimefunwarfare.lists.Items;
 import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
