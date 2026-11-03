@@ -58,7 +58,7 @@ public class SlimefunWarfare extends AbstractAddon implements Listener {
     private static Object townyFlightApi = null;
 
     public SlimefunWarfare() {
-        super("DrakesCraft-Labs", "SlimefunWarfare-Drake", "main", "auto-update");
+        super("SlimefunNewHorizons", "SlimefunWarfare-Drake", "main", "auto-update");
     }
 
     @Override
