@@ -1,102 +1,86 @@
-> [!WARNING]
-> ### ⚠️ ARCHIVADO / CONSOLIDADO EN DRAKES-SUITES
-> Este repositorio ha sido consolidado de forma definitiva en el monorepo oficial:  
-> 👉 [**Drakes-Suites (Suite 6: DrakesCombat)**](https://github.com/SlimefunNewHorizons/Drakes-Suites)  
-> Todo el desarrollo activo, optimizaciones del Ticker Engine, compatibilidad con Paper 1.21.11 y preparación para 26.X se realiza exclusivamente allí.
+<div align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/SlimefunNewHorizons/SlimefunWarfare-Drake/main/banner.svg" alt="SlimefunWarfare banner" width="100%"></p>
+  <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/SlimefunWarfare-Drake/main/banner.svg" alt="SlimefunWarfare-Drake Banner" width="920" />
 
-# SlimefunWarfare for DrakesCraft
+# ⚡ SlimefunWarfare — Drake Edition
 
-> ### 🏰 ¡Únete a la Comunidad Oficial de DrakesCraft!
+**High-Performance Paper 1.21.11 Expansion for Slimefun4**
+
+<p>
+  <a href="https://github.com/SlimefunNewHorizons/SlimefunWarfare-Drake"><img src="https://img.shields.io/badge/GitHub-SlimefunWarfare-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <img src="https://img.shields.io/badge/Slimefun4-Drake_Edition-22C55E?style=for-the-badge&logo=curseforge&logoColor=white" alt="Slimefun4"/>
+  <img src="https://img.shields.io/badge/Paper-1.21.11-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
+  <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21"/>
+</p>
+
+[🇬🇧 **English**](README.md) · [🇪🇸 **Español**](README_ES.md)
+
+</div>
+
+> ### 🏰 Join the Official DrakesCraft Community!
 > 
-> * 🎮 **IP del Servidor**: `play.drakescraft.net` *(Java 1.21.11 & Bedrock)*
-> * 💬 **Discord Oficial**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7)
-> * 🌐 **Web & Guía**: [drakescraft.net](https://drakescraft.net) — 🛒 **Tienda**: [tienda.drakescraft.net](https://tienda.drakescraft.net)
+> * 🎮 **Server IP**: `mc.drakescraft.cl` *(Java 1.21.11 & Bedrock Port 25565 / 19132)*
+> * 💬 **Official Discord**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7) — *Check out `#general-english`!*
+> * 🌐 **Website & Guides**: [web.drakescraft.cl](https://web.drakescraft.cl) — 🛒 **Store**: [web.drakescraft.cl/store](https://web.drakescraft.cl/store.html)
 > 
-> *¡Juega con este addon y más de 80 expansiones optimizadas en vivo en nuestra network de supervivencia técnica!*
+> *Play with this addon alongside 80+ optimized expansions live on our technical survival network!*
 
 ---
 
-[![Build](https://github.com/SlimefunNewHorizons/SlimefunWarfare-Drake/actions/workflows/build.yml/badge.svg)](https://github.com/SlimefunNewHorizons/SlimefunWarfare-Drake/actions/workflows/build.yml)
-![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-62b47a)
-![Java](https://img.shields.io/badge/Java-21-e8c65b)
+## 📖 What is SlimefunWarfare?
 
-A maintained, production-hardened port of SlimefunWarfare for the Drake Slimefun core. It adds
-military technology, rare-earth processing, chemical weapons and modular powered armor without
-allowing those systems to bypass DrakesCraft's modality or protection boundaries.
+**SlimefunWarfare-Drake** is a modular expansion within the **DrakesCraft Labs** ecosystem, specifically engineered and optimized for Minecraft **Paper / Purpur 1.21.11** servers running Java 21 LTS.
 
-## Highlights
+All items, machines, and recipes are integrated seamlessly into the **Slimefun Guide (`/sf guide`)** without requiring external client mods.
 
-- Firearms, energy weapons, ammunition and chemical grenades.
-- Modular powered armor with movement, survival and defensive modules.
-- Rare-earth ores, advanced alloys, meteor technology and processing machines.
-- Stable original item IDs and recipes for data compatibility.
-- Native Drake-core API and Java 21 / Minecraft 1.21.11 support.
-- Explicit world allowlist and Slimefun protection checks.
-- Non-destructive explosions; nuclear activation disabled by default.
-- No external auto-updater and no GuizhanLib runtime dependency.
+---
 
-The complete progression and system reference lives in [docs/CONTENT.md](docs/CONTENT.md).
+## ⚙️ Key Features & Systems
 
-## Build
+* 🚀 **Optimized Performance**: Full Java 21 LTS runtime optimization on Paper 1.21.11 with zero Garbage Collector stutter and zero external telemetry.
+* 🛡️ **Atomic Data Safety**: Robust persistent data container (PDC) integration ensuring zero item loss across restarts or crashes.
+* ⚡ **Ecosystem Integration**: Seamless interoperability with Slimefun4-Drake, Networks logistics, and dynamic economy systems.
+* 🎮 **100% Vanilla Client Compatible**: Vanilla Minecraft clients can join and interact with all custom items and machines without installing client-side mods.
+
+---
+
+## 📋 Technical Compatibility
+
+| Parameter | Requirement |
+|---|---|
+| **Server Software** | Paper / Purpur / Folia **1.21.11** |
+| **Java Runtime** | **Java 21** LTS |
+| **Required Core** | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
+| **Architecture** | 100% Server-Side (Vanilla Minecraft clients can join without installing client mods) |
+
+---
+
+## 📥 Installation
+
+1. Download the latest release `.jar` from the [Releases](https://github.com/SlimefunNewHorizons/SlimefunWarfare-Drake/releases) tab or [Modrinth](https://modrinth.com/organization/drakescraft-labs).
+2. Place the `.jar` into your server's `plugins/` directory alongside `Slimefun4-Drake.jar`.
+3. Start or restart your server. Recipes and machines will appear automatically in the Slimefun guide (`/sf guide`).
+
+---
+
+## 🛠️ Building from Source
 
 ```bash
-mvn --batch-mode clean verify
+git clone https://github.com/SlimefunNewHorizons/SlimefunWarfare-Drake.git
+cd SlimefunWarfare-Drake
+mvn clean package -DskipTests
 ```
 
-The production artifact is generated at `target/SlimefunWarfare.jar`.
+The compiled artifact will be located under `target/SlimefunWarfare-Drake.jar`.
 
-## Runtime requirements
+---
 
-- Paper or Purpur 1.21.11
-- Java 21
-- Slimefun4-Drake `11.0-Drake-1.21.11-SNAPSHOT`
+<div align="center">
 
-Review `safety.allowed-worlds` before deployment. The default configuration permits only the
-three primary Slimefun dimensions and keeps every other modality isolated.
+**Developed and Maintained by [DrakesCraft Labs](https://github.com/SlimefunNewHorizons)**  
+Licensed under **GPL-3.0-only**.
 
-## Credits
-
-Original concept and implementation by Seggan and upstream contributors. Drake maintenance,
-compatibility work, Spanish in-game presentation and production hardening by Jack / DrakesCraft Labs.
-
-This repository retains the original license in [LICENSE.txt](LICENSE.txt).
-
-## Qué añade al juego
-
-Addon de Slimefun con contenido propio: máquinas, objetos y recetas nuevas.
-Registra alrededor de **100 objetos** en la guía de Slimefun.
-
-Todo se fabrica y se investiga desde la guía normal (`/sf guide`), como cualquier otro contenido
-de Slimefun: no hace falta ningún comando especial para empezar.
-
-## Compatibilidad
-
-| | |
-|---|---|
-| Servidor | Paper / Purpur **1.21.11** |
-| Java | **21** |
-| Requiere | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
-| Lado | Solo servidor — quien juega no instala nada |
-| Versión | ${version} |
-
-## Instalación
-
-1. Descarga el `.jar` de la última versión.
-2. Déjalo en la carpeta `plugins/` del servidor, junto a Slimefun.
-3. Reinicia el servidor. Los objetos aparecen solos en la guía.
-
-> Este addon está portado al fork de Slimefun de DrakesCraft. Con el Slimefun original puede no
-> cargar, porque cambia el espacio de nombres de las clases.
-
-## Créditos
-- Seggan
-- Jack
-
-Port y mantenimiento por **DrakesCraft Labs**. La autoría original es de quien figura arriba; el detalle está en [docs/UPSTREAM_ATTRIBUTION.md](https://raw.githubusercontent.com/SlimefunNewHorizons/SlimefunWarfare-Drake/main/docs/UPSTREAM_ATTRIBUTION.md).
-
-Licencia **GPL-3.0-only**.
+</div>
 
 ---
 
@@ -104,6 +88,6 @@ Licencia **GPL-3.0-only**.
 
 This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/SlimefunNewHorizons).
 
-- **Original Project:** Created by the upstream authors and the open-source community.
-- **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21, high concurrency, asynchronous safety, and exploit/duplication prevention.
-- **License:** Distributed under the original **GNU General Public License v3.0 (GPLv3)** (or original upstream license). See the [LICENSE](LICENSE) file for complete terms.
+- **Original Project:** Created by the upstream authors and the open-source community ([Upstream Repository](https://github.com/Slimefun)).
+- **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21 LTS, high concurrency, asynchronous safety, and exploit/duplication prevention.
+- **License:** Distributed under the original **GPL-3.0-only** license terms. See the [LICENSE](LICENSE) file for complete details.
