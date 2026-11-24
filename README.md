@@ -1,3 +1,9 @@
+<!-- credits:start -->
+> **Credits & license.** Port and maintenance by [JackStar6677-1](https://github.com/JackStar6677-1) and [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Original authors: [Seggan](https://github.com/Seggan), [ybw0014](https://github.com/ybw0014), [WalshyDev](https://github.com/WalshyDev), [eris-webserv](https://github.com/eris-webserv), [Riley31415](https://github.com/Riley31415), [JackStar6677](https://github.com/JackStar6677), Jack (plugin.yml). Upstream license: **GNU General Public License v3.0** (see [LICENSE](LICENSE)). Details: [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md) · Policy: [Rights & Attribution](https://github.com/SlimefunNewHorizons/.github/blob/main/RIGHTS_AND_ATTRIBUTION.md). Independent community project, not affiliated with or endorsed by the original authors or the official Slimefun team.
+>
+> **Créditos y licencia.** Port y mantenimiento por [JackStar6677-1](https://github.com/JackStar6677-1) y [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Autores originales: [Seggan](https://github.com/Seggan), [ybw0014](https://github.com/ybw0014), [WalshyDev](https://github.com/WalshyDev), [eris-webserv](https://github.com/eris-webserv), [Riley31415](https://github.com/Riley31415), [JackStar6677](https://github.com/JackStar6677), Jack (plugin.yml). Licencia original: **GNU General Public License v3.0**. Detalle en [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md).
+<!-- credits:end -->
+
 <div align="center">
 
   <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/SlimefunWarfare-Drake/main/banner.svg" alt="SlimefunWarfare-Drake Banner" width="920" />
