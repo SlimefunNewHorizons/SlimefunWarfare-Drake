@@ -4,6 +4,8 @@
 > **Créditos y licencia.** Port y mantenimiento por [JackStar6677-1](https://github.com/JackStar6677-1) y [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Autores originales: [Seggan](https://github.com/Seggan), [ybw0014](https://github.com/ybw0014), [WalshyDev](https://github.com/WalshyDev), [eris-webserv](https://github.com/eris-webserv), [Riley31415](https://github.com/Riley31415), [JackStar6677](https://github.com/JackStar6677), Jack (plugin.yml). Licencia original: **GNU General Public License v3.0**. Detalle en [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md).
 <!-- credits:end -->
 
+> **Branches / Ramas.** `main`: Paper/Purpur 1.21.11 (Java 21). `port-26x`: Paper/Purpur 26.x (production: Purpur 26.2, Java 25). If another section of this README says otherwise, this note prevails. / Si otra seccion de este README dice otra cosa, prevalece esta nota.
+
 <div align="center">
 
   <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/SlimefunWarfare-Drake/main/banner.svg" alt="SlimefunWarfare-Drake Banner" width="920" />
